@@ -20,6 +20,10 @@ namespace MyRoutine.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
+        public DbSet<Routine> Routines { get; set; }
+
+        public DbSet<RoutineItem> RoutineItems { get; set; }
+
         public ApplicationDbContext()
             : base("DefaultConnection", throwIfV1Schema: false)
         {
