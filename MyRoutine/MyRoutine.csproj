@@ -201,17 +201,41 @@
     <Compile Include="Migrations\201901202045119_RoutineItem1.Designer.cs">
       <DependentUpon>201901202045119_RoutineItem1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201901222332091_CreateDate_CompleteToRoutine.cs" />
+    <Compile Include="Migrations\201901222332091_CreateDate_CompleteToRoutine.Designer.cs">
+      <DependentUpon>201901222332091_CreateDate_CompleteToRoutine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901230002128_addCompleteDateToRoutineItem.cs" />
+    <Compile Include="Migrations\201901230002128_addCompleteDateToRoutineItem.Designer.cs">
+      <DependentUpon>201901230002128_addCompleteDateToRoutineItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901230031427_RoutineItemChangeCompleteToBoolean.cs" />
+    <Compile Include="Migrations\201901230031427_RoutineItemChangeCompleteToBoolean.Designer.cs">
+      <DependentUpon>201901230031427_RoutineItemChangeCompleteToBoolean.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901230146466_CreateDateToDateOnly.cs" />
+    <Compile Include="Migrations\201901230146466_CreateDateToDateOnly.Designer.cs">
+      <DependentUpon>201901230146466_CreateDateToDateOnly.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901230202372_moreDBChanges.cs" />
+    <Compile Include="Migrations\201901230202372_moreDBChanges.Designer.cs">
+      <DependentUpon>201901230202372_moreDBChanges.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201901230216248_MoreDBChanges2.cs" />
+    <Compile Include="Migrations\201901230216248_MoreDBChanges2.Designer.cs">
+      <DependentUpon>201901230216248_MoreDBChanges2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\RoutineItem.cs" />
     <Compile Include="ViewModels\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\Routine.cs" />
-    <Compile Include="ViewModels\toggleRoutineItemViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-cerulean.css" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -306,6 +330,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201901202045119_RoutineItem1.resx">
       <DependentUpon>201901202045119_RoutineItem1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901222332091_CreateDate_CompleteToRoutine.resx">
+      <DependentUpon>201901222332091_CreateDate_CompleteToRoutine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901230002128_addCompleteDateToRoutineItem.resx">
+      <DependentUpon>201901230002128_addCompleteDateToRoutineItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901230031427_RoutineItemChangeCompleteToBoolean.resx">
+      <DependentUpon>201901230031427_RoutineItemChangeCompleteToBoolean.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901230146466_CreateDateToDateOnly.resx">
+      <DependentUpon>201901230146466_CreateDateToDateOnly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901230202372_moreDBChanges.resx">
+      <DependentUpon>201901230202372_moreDBChanges.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201901230216248_MoreDBChanges2.resx">
+      <DependentUpon>201901230216248_MoreDBChanges2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

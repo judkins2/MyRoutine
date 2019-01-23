@@ -22,3 +22,11 @@ select,
 textarea {
     max-width: 280px;
 }
+.True{
+    background-color:green;
+    color:white;
+}
+.False {
+    background-color: red;
+    color: white;
+}

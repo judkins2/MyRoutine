@@ -12,11 +12,14 @@ namespace MyRoutine.Models
         [DatabaseGeneratedAttribute(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
       
-        public byte Complete { get; set; }
+        public Boolean Complete { get; set; }
 
         public Routine Routine { get; set; }
 
         public int RoutineID { get; set; }
+        [Column(TypeName="Date")]
+        [DisplayFormat(ApplyFormatInEditMode =true, DataFormatString ="{0:MM/dd/yyyy}")]
+        public DateTime CompleteDate { get; set; }
     }
 }
 
